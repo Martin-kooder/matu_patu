@@ -67,6 +67,10 @@ h1 {
         padding: 5px;
         box-sizing: border-box;
     }
+
+    #box3 {
+        transform: scale(0.9);
+    }
     
     section {
         max-width: 90%;
