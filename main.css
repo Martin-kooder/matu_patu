@@ -69,9 +69,8 @@ h1 {
     }
 
     #box3 {
-        transform: scale(0.7);
-        min-width: 90%;
-        width: auto;
+        transform: scale(0.9);
+        width: 95%;
     }
 
     section {
