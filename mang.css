@@ -1,0 +1,53 @@
+body {
+  background-image: url(draakon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: stretch;
+  background-attachment: fixed;
+  background-color: lightgray;
+  margin-top: 0;
+  }
+  
+#text {
+    background-color: hsl(55, 100%, 90%);
+    color: hsl(0, 0%, 0%);
+    padding: 10px;
+  }
+  
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 200px auto 0;
+    border: 4px solid #fecc4c;
+    border-radius: 3px;
+  }
+  #controls,
+#stats {
+  border: 1px solid #0a0a23;
+  border-radius: 3px;
+  padding: 5px;
+  color: #0a0a23;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+#monsterStats {
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #c70d0d;
+  }
+  .stat {
+  padding-right: 10px;
+}
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#ffdb80, #ffa51e);
+  border: 3px solid hsl(33, 100%, 50%);
+  border-radius: 3px;
+}

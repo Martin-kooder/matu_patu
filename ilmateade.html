@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ilmateade.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Ilmateade</title>
+  </head>
+  <body>
+    <nav class="pagination">
+      <a href="veebileht.html">Avaleht</a>
+      <a href="mang.html">Rollimäng</a>
+      <a href="retseptid.html">Retseptid</a>
+      <a href="misc.html">Äpid</a>
+      <a href="ilmateade.html" class="active">Ilm</a>
+    </nav>
+      <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Sisestage Linn">
+        <button type="submit">Otsi Ilma</button>
+      </form>
+      <div id="loading" style="display: none;">Laen andmeid...</div>
+      <div class="card">
+      </div>
+
+      <script src="ilmateade.js"></script>
+  </body>
+</html>

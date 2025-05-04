@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Äpid</title>
+    <link rel="stylesheet" href="misc.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="pagination">
+        <a href="veebileht.html">Avaleht</a>
+        <a href="mang.html">Rollimäng</a>
+        <a href="retseptid.html">Retseptid</a>
+        <a href="misc.html" class="active">Äpid</a>
+        <a href="ilmateade.html">Ilm</a>
+    </nav>
+<div class="container" id="container">
+<div class="box" id="box1">
+    <form>
+        <h3>Temperatuuri konvertor:</h3>
+        
+        <input type="number" id="textBox" placeholder="0"><br>
+        <div class="radio-container">
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius → Fahrenheit</label></div><br>
+        <div class="radio-container">
+        <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius">Fahrenheit → Celsius</label></div><br>
+    
+        <button type="button" id="button1" onclick="convert()">Muuda</button> 
+        <p id="result"></p>
+    </form>
+</div>
+<div class="box" id="box2">
+    <h3>Täringu Veeretaja</h3>
+    <label for="numOfDice">Täringute hulk</label>
+    <input id="numOfDice" type="number" value="1" min="1">
+    <button id="button2" type="button" onclick="rollDice()">Veereta</button>
+    <div id="diceResult"></div>
+    <div id="diceImages"></div>
+</div>
+<div class="box" id="box3">
+    <div id="calculator">
+        <input id="display" placeholder="0" readonly>
+        <div id="keys">
+            <button class="operator-btn" onclick="appendToDisplay('+')">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button class="operator-btn" onclick="appendToDisplay('-')">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button class="operator-btn" onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button class="operator-btn" onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button class="operator-btn" onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+</div>
+</div>
+<script src="kraadid.js"></script>
+<script src="taringud.js"></script>
+<script src="kalkulaator.js"></script>
+</body>
+</html>

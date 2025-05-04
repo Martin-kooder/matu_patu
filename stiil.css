@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6rem;
+}
+h2{
+    font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(225deg, cyan, pink, yellow);
+}
+p{
+    color: rgb(255, 0, 0);
+}

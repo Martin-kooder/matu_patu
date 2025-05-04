@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mang.css">
+    <link rel="stylesheet" href="main.css">
+    <title>RPG - Draakoni Tapja</title>
+</head>
+<body>
+  <nav class="pagination">
+    <a href="veebileht.html">Avaleht</a>
+    <a href="mang.html" class="active">Rollimäng</a>
+    <a href="retseptid.html">Retseptid</a>
+    <a href="misc.html">Äpid</a>
+    <a href="ilmateade.html">Ilm</a>
+  </nav>
+    <div id="game">
+        <div id="stats">
+          <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+          <span class="stat">Elud: <strong><span id="healthText">100</span></strong></span>
+          <span class="stat">Kuld: <strong><span id="goldText">50</span></strong></span>
+        </div>
+        <div id="controls">
+          <button id="button1">Mine poodi</button>
+          <button id="button2">Mine koopasse</button>
+          <button id="button3">Võitle draakoniga</button>
+        </div>
+        <div id="monsterStats">
+          <span class="stat">Kolli nimi: <strong><span id="monsterName"></span></strong></span>
+          <span class="stat">Elud: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <div id="text">
+          Tere tulemast, Draakoni tapja. Sa pead alistama draakoni kes kiusab küla elanikke.
+          Oled küla väljakul. Kuhu Sa tahad minna? Kasuta ülal toodud nuppe.
+        </div>
+      </div>
+      <script src="mang.js"></script>
+</body>
+</html>

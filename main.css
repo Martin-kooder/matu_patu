@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active {
+    background-color: hsl(96, 100%, 50%);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: hsl(313, 100%, 69%);
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6rem;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.box {
+    background-color: hsl(0, 0%, 95%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+    .pagination a {
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 90%;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+
+    #box3 {
+        min-width: 90%;
+        width: auto;
+    }
+
+    section {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
