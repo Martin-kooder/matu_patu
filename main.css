@@ -89,15 +89,7 @@ h1 {
     p {
         font-size: 1rem;
     }
-    button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    border: none;
-    background-color: hsl(0, 0%, 30%);
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-    cursor: pointer;
-}
+    #keys button {
+        transform: scale(0.6);
+        font-size: 2rem;
 }
