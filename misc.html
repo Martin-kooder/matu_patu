@@ -8,37 +8,40 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<header>    
     <nav class="pagination">
         <a href="index.html">Avaleht</a>
         <a href="mang.html">Rollimäng</a>
-        <a href="retseptid.html">Retseptid</a>
         <a href="misc.html" class="active">Äpid</a>
         <a href="ilmateade.html">Ilm</a>
     </nav>
-<div class="container" id="container">
+</header>
+<div class="container">
 <div class="box" id="box1">
     <form>
         <h3>Temperatuuri konvertor:</h3>
-        
         <input type="number" id="textBox" placeholder="0"><br>
         <div class="radio-container">
-        <input type="radio" id="toFahrenheit" name="unit">
-        <label for="toFahrenheit">Celsius → Fahrenheit</label></div><br>
+            <input type="radio" id="toFahrenheit" name="unit">
+            <label for="toFahrenheit">Celsius → Fahrenheit</label>
+        </div><br>
         <div class="radio-container">
-        <input type="radio" id="toCelsius" name="unit">
-        <label for="toCelsius">Fahrenheit → Celsius</label></div><br>
-    
+            <input type="radio" id="toCelsius" name="unit">
+            <label for="toCelsius">Fahrenheit → Celsius</label>
+        </div><br>
         <button type="button" id="button1" onclick="convert()">Muuda</button> 
         <p id="result"></p>
     </form>
 </div>
 <div class="box" id="box2">
+    <form>
     <h3>Täringu Veeretaja</h3>
     <label for="numOfDice">Täringute hulk</label>
-    <input id="numOfDice" type="number" value="1" min="1">
+    <input id="numOfDice" type="number" value="1" min="1" max="21">
     <button id="button2" type="button" onclick="rollDice()">Veereta</button>
     <div id="diceResult"></div>
     <div id="diceImages"></div>
+    </form>
 </div>
 <div class="box" id="box3">
     <div id="calculator">

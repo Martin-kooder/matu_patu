@@ -1,46 +1,41 @@
-h1{
-  font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 6rem;
+h1 {
+    font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6rem;
 }
-h2{
-  font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 4rem;
+h2 {
+    font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
 }
 section {
-  padding: 20px;
-  margin: 15px 0;
-  border-radius: 8px;
-  background-color: #f8f8f8;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    flex: 1;
+    max-width: 45%;
+    text-align: center;
 }
 h3 {
-  font-size: 22px;
-  margin-bottom: 10px;
-  color: #70321D;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #70321D;
 }
-
 p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
 }
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 20px;
-  max-width: 80%;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-section {
-  flex: 1;
-  max-width: 45%;
-  text-align: center;
-  padding: 20px;
-  border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }

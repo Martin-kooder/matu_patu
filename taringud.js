@@ -1,5 +1,6 @@
 function rollDice(){
-    const numOfDice = document.getElementById("numOfDice").value;
+    const numOfDiceInput = document.getElementById("numOfDice");
+    const numOfDice = Math.min(numOfDiceInput.value, 21);
     const diceResult = document.getElementById("diceResult");
     const diceImages = document.getElementById("diceImages");
     const values = [];
@@ -11,6 +12,6 @@ function rollDice(){
         images.push(`<img src="taringud/${value}.png" alt="Täring ${value}">`);
     }
 
-    diceResult.textContent = `Veeretasid: ${values.join(', ')}`;
+    diceResult.innerHTML = `<strong>Veeretasid: ${values.join(', ')}</strong>`;
     diceImages.innerHTML = images.join('');
 }
