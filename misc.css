@@ -14,10 +14,10 @@
     align-items: flex-start;
     padding: 15px;
 }
-h3{
+h3 {
     font-weight: bold;
 }
-form{
+form {
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     max-width: 400px;
@@ -38,7 +38,7 @@ form{
 .radio-container label {
     font-size: 25px;
 }
-#textBox{
+#textBox {
     width: 50%;
     text-align: center;
     font-size: 2em;
@@ -46,12 +46,12 @@ form{
     border-radius: 4px;
     margin-bottom: 15px;
 }
-label{
+label {
     font-size: 1.5em;
     font-weight: bold;
     margin: 0;
 }
-#button1{
+#button1 {
     margin-top: 15px;
     background-color: hsl(0, 100%, 60%);
     color: white;
@@ -60,14 +60,14 @@ label{
     border-radius: 5px;
     cursor: pointer;
 }
-#button1:hover{
+#button1:hover {
     background-color: hsl(0, 100%, 50%);
 }
-#result{
+#result {
     font-size: 1.75em;
     font-weight: bold;
 }
-#button2{
+#button2 {
     font-size: 1.3rem;
     border-radius: 10px;
     border: none;
@@ -76,33 +76,33 @@ label{
     font-weight: bold;
     cursor: pointer;
 }
-#button2:hover{
+#button2:hover {
     background-color: hsl(210, 100%, 60%);
 }
-#button2:active{
+#button2:active {
     background-color: hsl(210, 100%, 70%);
 }
-input{
+input {
     font-size: 2rem;
     width: 150px;
     text-align: center;
     font-weight: bold;
 }
-#diceResult{
+#diceResult {
     margin: 5px;
 }
-#diceImages img{
+#diceImages img {
     width: 100px;
     margin: 5px;
 }
-#calculator{
+#calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
 }
-#display{
+#display {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -111,13 +111,13 @@ input{
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
-#keys{
+#keys {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 6px;
     padding: 10px;
 }
-button{
+button {
     width: 90px;
     height: 90px;
     border-radius: 50px;
@@ -128,19 +128,19 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-button:hover{
+button:hover {
     background-color: hsl(0, 0%, 40%);
 }
-button:active{
+button:active {
     background-color: hsl(0, 0%, 50%);
 }
-.operator-btn{
+.operator-btn {
     background-color: hsl(35, 100%, 55%);
 }
-.operator-btn:hover{
+.operator-btn:hover {
     background-color: hsl(35, 100%, 65%);
 }
-.operator-btn:active{
+.operator-btn:active {
     background-color: hsl(35, 100%, 75%);
 }
 @media screen and (max-width: 768px) {
