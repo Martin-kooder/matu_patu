@@ -1,11 +1,11 @@
-h1{
+h1 {
     font-family: 'Comic Sans MS', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 6rem;
     margin: 20px 0;
 }
-h2{
+h2 {
     font-family: 'Comic Sans MS', Arial, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -16,12 +16,12 @@ h2{
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     height: 100vh;
     background: linear-gradient(225deg, cyan, pink, yellow);
     margin: 0;
 }
-p{
+p {
     margin: 10px 0;
     color: rgb(255, 0, 0);
     font-weight: bold;
