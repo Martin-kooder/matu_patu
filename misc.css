@@ -1,166 +1,166 @@
 .box {
-display: flex;
-flex-direction: row;
-justify-content: nowrap;
-align-items: center;
-min-width: 415px;
-padding: 10px;
-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: nowrap;
+    align-items: center;
+    min-width: 415px;
+    padding: 10px;
+    width: 100%;
 }
 .container {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: flex-start;
-padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
 }
 h3{
-font-weight: bold;
+    font-weight: bold;
 }
 form{
-background-color: hsl(0, 0%, 100%);
-text-align: center;
-max-width: 400px;
-margin: 0;
-padding: 10px;
-border-radius: 10px;
-box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 400px;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
 }
 .radio-container {
-display: inline-flex;
-align-items: center;
+    display: inline-flex;
+    align-items: center;
 }
 .radio-container input[type="radio"] {
-width: 25px;
-height: 25px;
-margin: 0 5px 0 0;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
 }
 .radio-container label {
-font-size: 25px;
+    font-size: 25px;
 }
 #textBox{
-width: 50%;
-text-align: center;
-font-size: 2em;
-border: 2px solid hsla(0, 0%, 0%, 0.8);
-border-radius: 4px;
-margin-bottom: 15px;
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
+    border-radius: 4px;
+    margin-bottom: 15px;
 }
 label{
-font-size: 1.5em;
-font-weight: bold;
-margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
 }
 #button1{
-margin-top: 15px;
-background-color: hsl(0, 100%, 60%);
-color: white;
-font-size: 1.5em;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+    margin-top: 15px;
+    background-color: hsl(0, 100%, 60%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 #button1:hover{
-background-color: hsl(0, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
 }
 #result{
-font-size: 1.75em;
-font-weight: bold;
+    font-size: 1.75em;
+    font-weight: bold;
 }
 #button2{
-font-size: 1.3rem;
-border-radius: 10px;
-border: none;
-background-color: hsl(210, 100%, 50%);
-color: white;
-font-weight: bold;
-cursor: pointer;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(210, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 #button2:hover{
-background-color: hsl(210, 100%, 60%);
+    background-color: hsl(210, 100%, 60%);
 }
 #button2:active{
-background-color: hsl(210, 100%, 70%);
+    background-color: hsl(210, 100%, 70%);
 }
 input{
-font-size: 2rem;
-width: 150px;
-text-align: center;
-font-weight: bold;
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
 }
 #diceResult{
-margin: 5px;
+    margin: 5px;
 }
 #diceImages img{
-width: 100px;
-margin: 5px;
+    width: 100px;
+    margin: 5px;
 }
 #calculator{
-font-family: Arial, sans-serif;
-background-color: hsl(0, 0%, 15%);
-border-radius: 15px;
-max-width: 500px;
-overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
 }
 #display{
-width: 100%;
-padding: 20px;
-font-size: 5rem;
-text-align: left;
-border: none;
-background-color: hsl(0, 0%, 20%);
-color: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
 }
 #keys{
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-gap: 6px;
-padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    padding: 10px;
 }
 button{
-width: 90px;
-height: 90px;
-border-radius: 50px;
-border: none;
-background-color: hsl(0, 0%, 30%);
-color: white;
-font-size: 3rem;
-font-weight: bold;
-cursor: pointer;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
 }
 button:hover{
-background-color: hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 40%);
 }
 button:active{
-background-color: hsl(0, 0%, 50%);
+    background-color: hsl(0, 0%, 50%);
 }
 .operator-btn{
-background-color: hsl(35, 100%, 55%);
+    background-color: hsl(35, 100%, 55%);
 }
 .operator-btn:hover{
-background-color: hsl(35, 100%, 65%);
+    background-color: hsl(35, 100%, 65%);
 }
 .operator-btn:active{
-background-color: hsl(35, 100%, 75%);
+    background-color: hsl(35, 100%, 75%);
 }
 @media screen and (max-width: 768px) {
 .box {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-width: 100%;
-padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
 }
 .container {
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: flex-start;
-padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 15px;
 }
 #box3 {
-transform: scale(0.8);
+    transform: scale(0.8);
 }
 }
